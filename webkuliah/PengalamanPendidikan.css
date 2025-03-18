@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.bglatar {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+    width: 50%;
+    background-color: #83aaa2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 0 0 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.delivery-man {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    text-align: center;
+    color: white;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 4em;
+}
+
+.logo p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.right-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 15px; 
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.form-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Border radius untuk input */
+}
+
+.footer {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: #83aaa2;
+    color: white;
+}
+
+.save-button {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.save-button:hover {
+    background-color: #d0d0d0;
+}
